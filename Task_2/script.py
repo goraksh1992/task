@@ -59,7 +59,7 @@ class ServerExample:
 
 
 if __name__ == "__main__":
-    obj = ServerExample("173.255.248.238", "root", "Bot@imagearray[714]")
+    obj = ServerExample("host", "username", "password")
     option = input("""
     1. SSH to the server. Run a command(ls) on the server and save its output to an external text file \n
     2. File transfer to the server(FTP) \n 
